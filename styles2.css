@@ -1,0 +1,115 @@
+img.company-name-style{
+max-width:100px;
+max-height:30px;
+margin-right:1vw;
+}
+li.style-special-login{
+    position:absolute;
+    left:60vw;
+}
+li.style-special-sign{
+    position:absolute;
+    left:70vw;
+    }
+    
+
+
+
+@media only screen and (max-width: 600px) {
+
+a.company-name{
+    position:relative;
+    left:50%;
+    transform:translate(-50%);
+}
+img.company-icon{
+    position:absolute;
+    left:0;
+    top:0;
+    display:inline;
+    max-width:50px;
+    max-height:50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    box-shadow:2px 2px 5px #383836;
+    margin-left:1vw;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+img.company-icon{
+    position:absolute;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%,0);
+    display:inline;
+    max-width:50px;
+    max-height:50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    box-shadow:2px 2px 5px #383836;
+    margin-left:1vw;
+}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+img.company-icon{
+    position:absolute;
+    left:50%;    
+    margin-right:-50%;
+    transform: translate(-50%,0);
+    display:inline;
+    max-width:50px;
+    max-height:50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    box-shadow:2px 2px 5px #383836;
+    margin-left:1vw;
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+img.company-icon{
+    position:absolute;
+    left:95%;
+    display:inline;
+    max-width:50px;
+    max-height:50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    box-shadow:2px 2px 5px #383836;
+    margin-left:1vw;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+img.company-icon{
+    position:absolute;
+    left:95%;
+    display:inline;
+    max-width:50px;
+    max-height:50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    box-shadow:2px 2px 5px #383836;
+    margin-left:1vw;
+}
+
+}
